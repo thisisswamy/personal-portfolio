@@ -1,0 +1,88 @@
+.wrapper{
+    .first-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        // gap: 2em;
+        .note{
+            line-height: 25px;
+            width: 50%;
+            padding: 10px;
+            .title{
+                font-size: 5em;
+                font-weight: 700;
+                padding: .4em 0;
+            }
+            .sub-title{
+                border-bottom: 1.5px solid #a10000;
+                display: inline; 
+                font-weight: 600; 
+            }
+            .about{ 
+                text-align: justify;
+                color: #777;
+            }
+
+        }
+        .img{
+            width: 450px;
+            height: 450px;
+            img{
+                width: 100%;
+                margin-top: 1.5em;
+                mix-blend-mode: multiply;
+                
+                // filter: drop-shadow(0 0 0.75rem #f2f2f2);
+                
+            }
+        }
+    }
+    .skills-section{
+        margin: 3em;
+        .title{
+            text-align: center;
+            margin: 1em 0;
+            h1{
+                font-size: 2.5em;
+            }
+        }
+        .skill-content{
+            padding:2em;
+            box-shadow: 0 0 10px 0 rgb(0 0 0/10%);
+            border-bottom: 2.5px solid #251199;
+            border-radius: 5px;
+            ul{
+                margin: 0;
+                padding: 2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 2em;
+                background-color: #fff;
+                list-style: none;
+
+                li{
+                    background-color: #f1f1f1;
+                    // border-radius: 2px;
+                    padding: 5px 15px;
+                    box-shadow: 0px 0px 10px 0 rgb(0 0 0/5%);
+                    cursor: pointer;
+                    transition: all .4s ease-in-out;
+                    // border-right: 2px solid #251199;
+                }
+                li:hover{
+                    background-color: #251199;
+                    color: #fff;
+                    transform: scale(1.5);
+                }
+                li:hover.li:not(:hover){
+                    filter: blur(10px);
+                    
+                }
+                
+
+            }
+        }
+    }
+}

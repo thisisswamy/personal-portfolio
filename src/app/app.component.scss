@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .header-content{
+        width: 100%;
+    }
+    .screen-wrapper{
+        max-width: 	1366px;
+        width: 100%;
+        .router-content{
+            padding: 0 1em;
+        }
+
+
+    }
+
+}
