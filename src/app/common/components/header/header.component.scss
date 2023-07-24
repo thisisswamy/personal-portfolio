@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5em 3em .5em 2em;
+    padding: 0 3em 0 2em;
     box-shadow: 0 0px 10px 0px rgb(0, 0, 0, 10%);
     .title-nav{
         width: 1366px;
@@ -11,9 +11,15 @@
         align-items: center;
         .title{
             cursor: pointer;
+            h2{
+                font-size: 1.8em;
+            }
             small{
                 // color: #0257dffe;
                 color: #251199;
+                position: relative;
+                top: -8px;
+                font-weight: 500;
             }
         }
     
@@ -23,10 +29,13 @@
                 padding: 0;
                 display: flex;
                 list-style: none;
-                gap: 1em;
+                gap: 3em;
+                li{
+                    font-weight: 410;
+                }
                 li:hover{
                     // color: rgb(66, 66, 239);
-                    color: #4663BE;
+                    color: #3920c9;
                     cursor: pointer;
                 }
             }
