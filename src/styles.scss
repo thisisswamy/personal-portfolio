@@ -1,11 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+//variables ::after
+$subtitle-border-color:#a10000;
+$box-shadow:0 0 10px 0 rgba(0 0 0/10%);
+$describtion-text-color:#848685;
+$main-button-color:#3920c9;
+$main-button-hover-color:#251199;
+$white-bg-color:#fff;
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     // font-family: 'Fira Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    color: #0e2431;
+    // color: #0e2431;
 }
