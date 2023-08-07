@@ -14,5 +14,22 @@
               <li>About</li>
             </ul>
           </div>
+          <div class="menu-icons" [ngClass]="isMenuOpened ? 'cross-menu' : ''" (click)="menuEvents()">
+            <div class="menu-bar-1 menu-bars"></div>
+            <div class="menu-bar-2 menu-bars"></div>
+          </div>
+    </div>
+  </div>
+
+
+  <div class="mobile-menu" *ngIf="isMenuOpened">
+    <div class="menu">
+      <ul>
+        <li>Home</li>
+        <li>Skills</li>
+        <li>Experience</li>
+        <li>Projects</li>
+        <li>About</li>
+      </ul>
     </div>
   </div>
