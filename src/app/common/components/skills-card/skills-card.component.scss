@@ -1,0 +1,32 @@
+.main-wrapper{
+    padding: 10px;
+    // width: 20%;
+    .sub-heading{
+        border: 1px solid #eee;
+        background-color:#3920c9;
+        padding: 0 5px;
+        margin-bottom:.5em;
+        border-radius: 3px;
+        color: #fff;
+        .head{
+            font-size: 1.1em;
+            // font-weight: 600;
+        }
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: decimal;
+        li{
+            display: flex;
+            justify-content: space-between;
+            font-weight: 410;
+            .range{
+                color: green;
+            }
+            .range.medium{
+                color: orangered;
+            }
+        }
+    }
+}

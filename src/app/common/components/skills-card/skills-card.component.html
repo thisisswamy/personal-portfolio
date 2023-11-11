@@ -1,0 +1,15 @@
+<div class="main-wrapper">
+    <div>
+        <div class="sub-heading">
+        <p class="head">{{skillSet.name}}</p>
+    </div>
+    <ul *ngFor="let obj of skillSet.technolgies">
+        <li>
+            <span>{{obj.techName}}</span>
+            <span class="range" [ngClass]="obj.proficiency>80 ? '' : 'medium' ">- {{obj.proficiency}} %</span>
+        </li>
+        
+    </ul>
+    </div>
+</div>
+

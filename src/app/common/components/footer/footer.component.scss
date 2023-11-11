@@ -1,11 +1,16 @@
 footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2em;
     // height: 40vh;
     background-color: #f1f1f1;
     margin-top: 2em;
+   .footer-elements{
+    width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .author-info{
         h1{
             border-bottom:2px solid #3920c9;
@@ -30,6 +35,7 @@ footer{
             }
         }
     }
+   }
 
     @media(max-width:900px){
         flex-direction: column;
