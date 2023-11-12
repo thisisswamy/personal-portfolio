@@ -1,1 +1,25 @@
-<p>project-card works!</p>
+<div class="main-wrapper">
+    <div class="role-section">
+        <p class="role">
+            {{projectDetails.designation + " | "+projectDetails.role}}
+        </p>
+        <small class="dates">{{projectDetails.fromToDates}}</small> <br>
+        <p class="comp-name"><span>{{projectDetails.company}}</span></p>
+    </div>
+    <div class="responsibilities">
+        <div class="projects">
+            <div class="title">Projects & Responsibilities</div>
+            <div *ngFor="let detail of projectDetails.projects; index as i">
+                <p class="project-name"> <span>{{i+1+"."}}</span>{{detail.title}}</p>
+                <ul *ngFor="let responsibility of detail.responsibilities">
+                    <li>{{responsibility}}</li>
+
+                </ul>
+                <div class="key-words" >
+                    <span *ngFor="let keyword of detail.keywords"> {{keyword}}</span>
+               </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

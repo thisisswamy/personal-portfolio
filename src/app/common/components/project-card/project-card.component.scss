@@ -1,0 +1,67 @@
+.main-wrapper{
+    margin-top: 1em;
+
+    .role-section{
+        .role{
+            font-weight: 600;
+            font-size: 1.2em;
+            padding-bottom: 5px;
+        }
+        .dates{
+            color: #777;
+            font-size: 1em;
+        }
+        .comp-name{
+            padding: 10px 0;
+            span{
+                border: 1px solid #f1f1f1;
+                padding: 3px 10px;
+                background-color: #251199;
+                color: #fff;
+                border-radius: 4px;
+            }
+        }
+    }
+    .responsibilities{
+        margin: 1.5em 0;
+        .projects{
+            
+            .title{
+                font-size: 1.1em;
+                font-weight: 600;
+            }
+            .project-name{
+                padding: 5px 0;
+                font-weight: 410;
+                span{
+                    padding-right: 10px;
+                }
+            }
+            ul{
+                padding: 0;
+                margin:  0;
+                list-style: "- ";
+                li{
+                    margin-left: 20px;
+                    color: #777;
+                }
+            }
+            .key-words{
+                padding: 10px;
+                display: flex;
+                gap: .5em;
+                flex-wrap: wrap;
+                margin-bottom: 1em;
+                span{
+                    border: 1px solid #f1f1f1;
+                    background-color: #f1f1f1;
+                    color: #777;
+                    font-size: .9em;
+                    padding: 1px 8px;
+                    border-radius: 3px;
+                }
+            }
+
+        }
+    }
+}

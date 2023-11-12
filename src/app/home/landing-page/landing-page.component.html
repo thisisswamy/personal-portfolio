@@ -54,7 +54,16 @@
 
         </div>
     </div>
-   
+    <div class="skills-section common-margins">
+        <div class="section-title">
+            <p class="title-name">Work & Experience</p>
+        </div>
+        <div class="project-child">
+            <div *ngFor="let project of projectsList" class="skill">
+                <app-project-card  [projectDetails]="project"></app-project-card>
+            </div>
+        </div>
+    </div>
     
     
 </div>
