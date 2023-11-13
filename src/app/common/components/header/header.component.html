@@ -2,16 +2,15 @@
     <div class="title-nav">
         <div class="title">
             <h2>Swamy</h2>
-            <small>Full Stack Developer</small>
+            <small>Software Engineer</small>
             
           </div>
           <div class="menu">
-            <ul>
-              <li>Home</li>
-              <li>Skills</li>
-              <li>Experience</li>
-              <li>Projects</li>
-              <li>About</li>
+            <ul (click)="navigationFromHeader($event)">
+              <li class="skills">Skills</li>
+              <li class="experience">Experience</li>
+              <li class="experience">Projects</li>
+              <li class="about">About</li>
             </ul>
           </div>
           <div class="menu-icons" [ngClass]="isMenuOpened ? 'cross-menu' : ''" (click)="menuEvents()">
@@ -24,12 +23,11 @@
 
   <div class="mobile-menu" *ngIf="isMenuOpened">
     <div class="menu">
-      <ul>
-        <li>Home</li>
-        <li>Skills</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>About</li>
+      <ul (click)="navigationFromHeaderForMobile($event)">
+        <li class="skills">Skills</li>
+        <li class="experience">Experience</li>
+        <li class="experience">Projects</li>
+        <li class="about">About</li>
       </ul>
     </div>
   </div>

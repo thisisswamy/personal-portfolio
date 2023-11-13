@@ -6,12 +6,17 @@
     overflow: auto;
     .header-content{
         width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        z-index: 1;
     }
     .screen-wrapper{
         max-width: 	1366px;
         width: 100%;
         .router-content{
             padding: 0 1em;
+            margin-top: 5em;
         }
 
 

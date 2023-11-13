@@ -45,7 +45,12 @@
                     cursor: pointer;
                     border-radius: 8px;
                     font-weight: 500;
-                    box-shadow:0px 0px 10px 0 rgb(0 0 0/10%)
+                    box-shadow:0px 0px 10px 0 rgb(0 0 0/10%);
+
+                    .link{
+                        color: #fff;
+                        text-decoration: none; 
+                    }
                     
                 }
                 button:hover{
@@ -59,6 +64,8 @@
 
                 @media(max-width:780px){
                     gap: 1em;
+                    align-items: center;
+                    justify-content: center;
                 }
             }
 

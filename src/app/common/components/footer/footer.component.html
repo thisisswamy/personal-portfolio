@@ -1,24 +1,17 @@
-<footer>
-    <div class="footer-elements">
-        <div class="author-info">
-            <h1>Swamy Thudum</h1>
-            <a href="mailto:thudumswamy786@gmail">{{gmailAddress}}</a>
-        </div>
-        <div class="quick-links">
-            <ul>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#experiance">Experience</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
+<div class="wrapper">
+    <div class="title-nav">
+        <div class="title">
+            <h2>Swamy Thudum</h2>
+            <small>{{gmailAddress}}</small>  
+          </div>
+          <div class="menu">
+            <ul (click)="navigation($event)">
+            <!-- <ul > -->
+              <li id="skills">Skills</li>
+              <li id="experience">Experience</li>
+              <li id="experience">Projects</li>
+              <li id="about">About</li>
             </ul>
-        </div>
+          </div>
     </div>
-</footer>
+</div>

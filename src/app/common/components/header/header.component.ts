@@ -38,4 +38,23 @@ export class HeaderComponent implements OnInit{
     }
   }
 
+  navigationFromHeader(event:any){
+    let tagName:any;
+    if(event.target && event.target.tagName === 'LI'){
+      tagName = event.target.className
+      this.dataService.navigationSubject.next(tagName);
+    }
+    
+  }
+  navigationFromHeaderForMobile(event:any){
+    let tagName:any;
+    if(event.target && event.target.tagName === 'LI'){
+      tagName = event.target.className
+      this.dataService.navigationSubject.next(tagName);
+      this.isMenuOpened =false;
+      this.enableBodyScroll()
+    }
+    
+  }
+
 }

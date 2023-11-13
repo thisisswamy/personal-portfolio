@@ -1,47 +1,71 @@
-footer{
+.wrapper{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 2em;
-    // height: 40vh;
-    background-color: #f1f1f1;
-    margin-top: 2em;
-   .footer-elements{
-    width: 1366px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .author-info{
-        h1{
-            border-bottom:2px solid #3920c9;
-        }
-        a{
-            text-decoration: none;
-            color: #222;
-        }
+    // align-items: center;
+    padding: 0 3em 0 2em;
+    height: 30vh;
+    background-color: #f1f2f1;
 
-    }
-    .quick-links{
-        ul{
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2em;
-            li{
-                a{
-                    text-decoration: none;
-                    color: #3920c9;
-                }
+    .title-nav{
+        width: 1366px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title{
+            cursor: pointer;
+            h2{
+                font-size: 2em;
+                text-transform: uppercase;
+            }
+            small{
+                // color: #0257dffe;
+                color: #251199;
+                position: relative;
+                // top: -8px;
+                font-weight: 500;
+                font-size: 1em;
+                padding-top: 10px;
             }
         }
-    }
-   }
+    
+        .menu{
+            ul{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                list-style: none;
+                gap: 3em;
+                li{
+                    // font-weight: 410;
+                }
+                li:hover{
+                    // color: rgb(66, 66, 239);
+                    color: #3920c9;
+                    cursor: pointer;
+                    font-weight: 410;
+                }
+                @media(max-width:420px){
+                    flex-direction: column;
+                    gap: 1em;
+                    justify-items: center;
+                    align-items: center;
+                    padding: 2em 0;
 
-    @media(max-width:900px){
-        flex-direction: column;
-        /* text-align: center; */
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
+                }
+            }
+
+           
+        }
+        @media(max-width:890px){
+           flex-direction: column;  
+           padding: 2em 0; 
+           justify-content: space-evenly;  
+        }
+        
     }
+    @media(max-width:420px){
+        height: 50svh;
+
+    }
+    
 }

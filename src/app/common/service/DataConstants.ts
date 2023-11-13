@@ -30,11 +30,11 @@ export class DataConstants {
       technolgies: [
         {
           techName: 'SQL',
-          proficiency: 80,
+          proficiency: 60,
         },
         {
           techName: 'MySQL',
-          proficiency: 70,
+          proficiency: 60,
         },
         {
           techName: 'GIT',
@@ -46,7 +46,7 @@ export class DataConstants {
         },
         {
           techName: 'Bit Bucket',
-          proficiency: 90,
+          proficiency: 80,
         },
       ],
     },
@@ -77,7 +77,7 @@ export class DataConstants {
     {
       company: 'Tata Consultency Services',
       designation: 'System Engineer',
-      role: 'Frontend developer',
+      role: 'Frontend developer (Angular)',
       technology: 'Angular',
       fromToDates: '2021 - Present',
       projects: [
@@ -86,7 +86,7 @@ export class DataConstants {
           responsibilities: [
             'Have developed clean, responsive and user friendly user interfaces.',
             "Integrated multiple API's with frontend.",
-            'Implemented the state management using NgRx throught the applications.',
+            'Implemented the state management using NgRx throught out the applications.',
             'Worked with angular material for admin portal.',
             'Have worked and developed the Jasmine unit test cases.',
             'Handled Error Scenerios all well with appropreiate messageson UI',
