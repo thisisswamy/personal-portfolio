@@ -124,7 +124,7 @@ export class DataConstants {
       ],
     },
     {
-      company: 'for Personal Career Growth',
+      company: 'Personal',
       designation: 'Java & SpringBoot',
       role: 'Backend developer',
       technology: 'Java',
