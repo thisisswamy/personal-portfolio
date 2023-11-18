@@ -89,7 +89,7 @@ export class DataConstants {
             'Implemented the state management using NgRx throught out the applications.',
             'Worked with angular material for admin portal.',
             'Have worked and developed the Jasmine unit test cases.',
-            'Handled Error Scenerios all well with appropreiate messageson UI',
+            'Handled Error Scenerios all well with appropreiate messages on UI',
           ],
           keywords: [
             'Angular',
@@ -131,9 +131,9 @@ export class DataConstants {
       fromToDates: '2021 - Present',
       projects: [
         {
-          title: 'Moview Review Application',
+          title: 'Moview Review and Notes Web applications ',
           responsibilities: [
-            'Have developed REST APIs for Microservices Architecture based application.',
+            'Have developed REST full APIs for Microservices Architecture based application.',
             'Integrated Spring Cloud Gateway and Spring Security.',
             'Documented with swagger API.',
             'Worked with JWT Tokens for AUthentication and Authorization.',
@@ -153,29 +153,7 @@ export class DataConstants {
             'JWT Token',
           ],
         },
-        {
-          title: 'Notes Application.',
-          responsibilities: [
-            'Have developed REST APIs for Microservices Architecture based application.',
-            'Integrated Spring Cloud Gateway and Spring Security.',
-            'Documented with swagger API.',
-            'Worked with JWT Tokens for AUthentication and Authorization.',
-            'Have worked and developed with Mongo DB and MySQL Databases for Data handling.',
-            'Developed API for all User scenarios - Register,Login,Forgot Password, Account Verification Link and Reset Password',
-            'Handled Error Scenerios all well with appropreiate responses.',
-          ],
-          keywords: [
-            'Java',
-            'Spring Framework',
-            'Spring Boot',
-            'Spring Security',
-            'API Gateway',
-            'Discovery Service',
-            'Microservices',
-            'Postman',
-            'JWT Token',
-          ],
-        },
+        
       ],
     },
   ];
