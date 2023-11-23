@@ -131,7 +131,7 @@ export class DataConstants {
       fromToDates: '2021 - Present',
       projects: [
         {
-          title: 'Moview Review and Notes Web applications ',
+          title: 'Moview Review and Notes Full stack Web applications ',
           responsibilities: [
             'Have developed REST full APIs for Microservices Architecture based application.',
             'Integrated Spring Cloud Gateway and Spring Security.',
